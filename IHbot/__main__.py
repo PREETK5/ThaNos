@@ -21,8 +21,7 @@ from IHbot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hello {}, my name is {}!
 
-You will have your war, Asgardian. If you fail, if the Tesseract is kept from us, there will be no realm, no barren moon, no crevice where he can't find you. You think you know pain? I will make you long for something as sweet as pain..\
-
+You will have your war, Asgardian. If you fail, if the Tesseract is kept from us, there will be no realm, no barren moon, no crevice where he can't find you. You think you know pain? I will make you long for something as sweet as pain.\
 
 I'm world manager bot maintained by [this noob person](tg://user?id={}).
 
@@ -30,7 +29,7 @@ You can find the list of available commands with /help.
 
 [Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/ThaNos_TheBot?startgroup=add)
 
-My pro sir [click here](tg://user?id={}).
+Earth. That is my price.!
 """
 
 HELP_STRINGS = """
@@ -517,4 +516,3 @@ def process_update(self, update):
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     main()
-11111111111111111113
