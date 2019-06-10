@@ -21,17 +21,16 @@ from IHbot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hello {}, my name is {}!
 
-I know what it’s like to lose. To feel so desperately that you’re right, yet to fail nonetheless. Dread it. Run from it. \
-Destiny still arrives. Or should I say, I have.\
+You will have your war, Asgardian. If you fail, if the Tesseract is kept from us, there will be no realm, no barren moon, no crevice where he can't find you. You think you know pain? I will make you long for something as sweet as pain..\
 
 
-I'm world manager bot maintained by [this awesome person](tg://user?id={}).
+I'm world manager bot maintained by [this noob person](tg://user?id={}).
 
 You can find the list of available commands with /help.
 
 [Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/ThaNos_TheBot?startgroup=add)
 
-Earth. That is my price.!
+My pro sir [click here](tg://user?id={@shivamkchoudhary}).
 """
 
 HELP_STRINGS = """
