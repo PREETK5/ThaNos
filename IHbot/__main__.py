@@ -30,7 +30,7 @@ You can find the list of available commands with /help.
 
 [Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/ThaNos_TheBot?startgroup=add)
 
-My pro sir [click here](tg://user?id={621013608}).
+My pro sir [click here](tg://user?id={}).
 """
 
 HELP_STRINGS = """
