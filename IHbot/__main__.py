@@ -23,13 +23,14 @@ Hello {}, my name is {}!
 
 You will have your war, Asgardian. If you fail, if the Tesseract is kept from us, there will be no realm, no barren moon, no crevice where he can't find you. You think you know pain? I will make you long for something as sweet as pain.\
 
+
 I'm world manager bot maintained by [this noob person](tg://user?id={}).
 
 You can find the list of available commands with /help.
 
 [Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/ThaNos_TheBot?startgroup=add)
 
-Earth. That is my price.!
+[Pro Sir 😎] (https://telegram.me/shivamkchoudhary)
 """
 
 HELP_STRINGS = """
