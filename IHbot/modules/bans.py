@@ -104,7 +104,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("That Piece Of Ass is gone")
+        message.reply_text("This person is ban protected, meaning that you cannot ban this person! ")
         return ""
 
     if user_id == bot.id:
@@ -112,7 +112,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if not reason:
-        message.reply_text("bsdk kitne time tak ban rakhna hai woh toh bol deta")
+        message.reply_text("bsdk readon toh bol deta")
         return ""
 
     split_reason = reason.split(None, 1)
