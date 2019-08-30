@@ -33,7 +33,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'administrator' or user_member.status == 'creator':
-        message.reply_text("Bsdk He's my Tony Stark So just fuck off)
+        message.reply_text("Bsdk He's my Tony Stark So just fuck off")
         return ""
 
     if user_id == bot.id:
