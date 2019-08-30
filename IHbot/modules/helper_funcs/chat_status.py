@@ -55,7 +55,7 @@ def bot_can_delete(func):
             return func(bot, update, *args, **kwargs)
         else:
             update.effective_message.reply_text("I can't delete messages here! "
-                                                "Make sure I'm admin and can delete other user's messages.")
+                                                "Bsdk first Make sure I'm admin and can delete other user's messages.")
 
     return delete_rights
 
@@ -121,7 +121,7 @@ def user_admin(func):
             update.effective_message.delete()
 
         else:
-            update.effective_message.reply_text("Son,I don't answer to you.")
+            update.effective_message.reply_text("Fuck Off Bitch")
 
     return is_admin
 
