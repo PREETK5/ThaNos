@@ -31,7 +31,7 @@ You can find the list of available commands with /help.
 
 [Click here to add me in your groups and Enjoy the World 😎](https://telegram.me/Sudos_bot?startgroup=add)
 
-Give me my Tony sir!
+Have Smile on you face 😊
 """
 
 HELP_STRINGS = """
@@ -52,8 +52,8 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Give me `Gwen Stacy`!!"""
+DONATE_STRING = """Hope you can give me!
+Give your both kidneys to me!!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
