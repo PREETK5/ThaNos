@@ -466,7 +466,7 @@ def delete_join(bot: Bot, update: Update):
         del_join = sql.get_del_pref(chat.id)
         if del_join:
             update.message.delete()
-            
+
 
 WELC_HELP_TXT = "Your group's welcome/goodbye messages can be personalised in multiple ways. If you want the messages" \
                 " to be individually generated, like the default welcome message is, you can use *these* variables:\n" \

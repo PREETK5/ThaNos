@@ -54,7 +54,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         return
 
     if int(user_id) in SUDO_USERS:
-        message.reply_text("I spy, with my little eye... a sudo user war! Why are you guys turning on each other?")
+        message.reply_text("Don't do bcoz once Avengers was divided and Thanos came")
         return
 
     if int(user_id) in SUPPORT_USERS:
@@ -62,7 +62,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         return
 
     if user_id == bot.id:
-        message.reply_text("-_- So funny, lets gban myself why don't I? Nice try. Earth That is my price")
+        message.reply_text("-_- So funny, lets gban myself why don't I? Nice try. Olivia Bolton")
         return
 
     try:
@@ -77,7 +77,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
     if sql.is_user_gbanned(user_id):
         if not reason:
-            message.reply_text("This user is already gbanned; I'd change the reason, but you haven't given me one...")
+            message.reply_text("This user is already gbanned; give me reason if possible")
             return
 
         old_reason = sql.update_gban_reason(user_id, user_chat.username or user_chat.first_name, reason)
@@ -91,7 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("*Summoning all infinity stones* The end is near. ☠️")
+    message.reply_text("*Summoning all infinity stones* Avengers is Here.")
 
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
@@ -102,8 +102,8 @@ def gban(bot: Bot, update: Update, args: List[str]):
                  "\n<b>User:</b> {}" \
                  "\n<b>ID:</b> <code>{}</code>" \
                  "\n<b>Reason:</b> {}".format(mention_html(banner.id, banner.first_name),
-                                              mention_html(user_chat.id, user_chat.first_name), 
-                                                           user_chat.id, reason or "No reason given"), 
+                                              mention_html(user_chat.id, user_chat.first_name),
+                                                           user_chat.id, reason or "No reason given"),
                 html=True)
 
     sql.gban_user(user_id, user_chat.username or user_chat.first_name, reason)
@@ -132,7 +132,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
                    "{} has been successfully gbanned!".format(mention_html(user_chat.id, user_chat.first_name)),
                    html=True)
-    message.reply_text("Justice has been done 😉\"Peace\".")
+    message.reply_text("Justice has been done 😉.")
 
 @run_async
 def ungban(bot: Bot, update: Update, args: List[str]):
@@ -154,7 +154,7 @@ def ungban(bot: Bot, update: Update, args: List[str]):
 
     banner = update.effective_user  # type: Optional[User]
 
-    message.reply_text("I'll give {} a second chance, globally.I do not ask for your trust.I demand only your obedience.".format(user_chat.first_name))
+    message.reply_text("I'll give {} a second chance, globally.You're one of the Avenger so be careful of conflict".format(user_chat.first_name))
 
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
                  "<b>Regression of Global Ban</b>" \
@@ -163,7 +163,7 @@ def ungban(bot: Bot, update: Update, args: List[str]):
                  "\n<b>Sudo Admin:</b> {}" \
                  "\n<b>User:</b> {}" \
                  "\n<b>ID:</b> <code>{}</code>".format(mention_html(banner.id, banner.first_name),
-                                                       mention_html(user_chat.id, user_chat.first_name), 
+                                                       mention_html(user_chat.id, user_chat.first_name),
                                                                     user_chat.id),
                 html=True)
 
@@ -197,7 +197,7 @@ def ungban(bot: Bot, update: Update, args: List[str]):
                                                                          user_chat.first_name)),
                  html=True)
 
-    message.reply_text("Person has been un-gbanned.The hardest choices require the strongest wills.😐")
+    message.reply_text("Person has been un-gbanned.The hardest choices require the strongest ideas.")
 
 
 @run_async

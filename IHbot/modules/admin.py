@@ -33,11 +33,11 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'administrator' or user_member.status == 'creator':
-        message.reply_text("Am i supposed to give them a second star or something?")
+        message.reply_text("Bsdk He's my Tony Stark So just fuck off)
         return ""
 
     if user_id == bot.id:
-        message.reply_text("I can't promote myself! Get an admin to do it for me.")
+        message.reply_text("I can't promote myself! Get My Tony Stark to do it for me i.e. do it manually")
         return ""
 
     # set same perms as bot - bot can't assign higher perms than itself!
@@ -79,7 +79,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("Demoting the CREATOR of the chat is the second funniest thing after you !")
+        message.reply_text("Bsdk He's my Tony Stark So just fuck off")
         return ""
 
     if not user_member.status == 'administrator':
@@ -87,7 +87,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if user_id == bot.id:
-        message.reply_text("I can't demote myself! Get an admin to do it for me.")
+        message.reply_text("Bsdk Baap Se Bhakchodi")
         return ""
 
     try:
@@ -100,7 +100,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
                               can_restrict_members=False,
                               can_pin_messages=False,
                               can_promote_members=False)
-        message.reply_text("Successfully demoted!")
+        message.reply_text("Randi was Successfully demoted!")
         return "<b>{}:</b>" \
                "\n#DEMOTED" \
                "\n<b>Admin:</b> {}" \
@@ -109,8 +109,8 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
                                           mention_html(user_member.user.id, user_member.user.first_name))
 
     except BadRequest:
-        message.reply_text("Could not demote. I might not be admin, or the admin status was appointed by another "
-                           "user, so I can't act upon them!")
+        message.reply_text("Bsdk Make me Admin, or admin status was appointed by one of the Avengers  "
+                           " so I can't act upon them!")
         return ""
 
 
@@ -182,9 +182,9 @@ def invite(bot: Bot, update: Update):
             invitelink = bot.exportChatInviteLink(chat.id)
             update.effective_message.reply_text(invitelink)
         else:
-            update.effective_message.reply_text("I don't have access to the invite link, try changing my permissions!")
+            update.effective_message.reply_text("First Check My Permission gendu")
     else:
-        update.effective_message.reply_text("I can only give you invite links for supergroups and channels, sorry!")
+        update.effective_message.reply_text("I can only give you invite links for Avengers, sorry!")
 
 
 @run_async
@@ -213,7 +213,7 @@ def adminlist(bot: Bot, update: Update):
 
 
 def __chat_settings__(chat_id, user_id):
-    return "You are *admin*: `{}`".format(
+    return " Gendu You are *admin*: `{}`".format(
         dispatcher.bot.get_chat_member(chat_id, user_id).status in ("administrator", "creator"))
 
 

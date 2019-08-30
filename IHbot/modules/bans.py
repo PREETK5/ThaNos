@@ -41,7 +41,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. :p")
+        message.reply_text("Nikal lavde ")
         return ""
 
     if user_id == bot.id:
@@ -104,7 +104,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. :p")
+        message.reply_text("That Piece Of Ass is gone")
         return ""
 
     if user_id == bot.id:
@@ -112,7 +112,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if not reason:
-        message.reply_text("You haven't specified a time to ban this user for!")
+        message.reply_text("bsdk kitne time tak ban rakhna hai woh toh bol deta")
         return ""
 
     split_reason = reason.split(None, 1)
@@ -187,7 +187,7 @@ def kick(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id):
-        message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. :p")
+        message.reply_text("Shit should is removed ")
         return ""
 
     if user_id == bot.id:
@@ -226,14 +226,14 @@ def kickme(bot: Bot, update: Update):
     user_id = update.effective_message.from_user.id
     if user_id == OWNER_ID:
         update.effective_message.reply_text("Oof, I can't kick my master.")
-        return 
+        return
     elif is_user_admin(update.effective_chat, user_id):
-          update.effective_message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. :p.")
+          update.effective_message.reply_text("Nikal lavde ")
           return
 
     res = update.effective_chat.unban_member(user_id)  # unban on current user = kick
     if res:
-        update.effective_message.reply_text("Lmao He is chu af :p")
+        update.effective_message.reply_text("Lmao He is chu af")
     else:
         update.effective_message.reply_text("Huh? I can't :/")
 
@@ -246,10 +246,10 @@ def banme(bot: Bot, update: Update):
     chat = update.effective_chat
     user = update.effective_user
     if user_id == OWNER_ID:
-        update.effective_message.reply_text("Oof, I can't ban my master.")
+        update.effective_message.reply_text("Bsdk He's My Tony Stark")
         return
     elif is_user_admin(update.effective_chat, user_id):
-        update.effective_message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. :p.")
+        update.effective_message.reply_text("Bitch He's one of the Avengers")
         return
 
     res = update.effective_chat.kick_member(user_id)
@@ -294,11 +294,11 @@ def unban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if is_user_in_chat(chat, user_id):
-        message.reply_text("Why are you trying to unban someone that's already in the chat?")
+        message.reply_text("Jhaatu woh Group mein hi hai")
         return ""
 
     chat.unban_member(user_id)
-    message.reply_text("Destiny gave you second chance. Don't waste it.")
+    message.reply_text("One Chance is Given By Avengers")
 
     log = "<b>{}:</b>" \
           "\n#UNBANNED" \
@@ -321,7 +321,7 @@ def sban(bot: Bot, update: Update, args: List[str]) -> str:
     chat = update.effective_chat  # type: Optional[Chat]
     user = update.effective_user  # type: Optional[User]
     message = update.effective_message  # type: Optional[Message]
-    
+
     update.effective_message.delete()
 
     user_id, reason = extract_user_and_text(message, args)
@@ -347,7 +347,7 @@ def sban(bot: Bot, update: Update, args: List[str]) -> str:
           "\n# SILENTBAN" \
           "\n<b>• Admin:</b> {}" \
           "\n<b>• User:</b> {}" \
-          "\n<b>• ID:</b> <code>{}</code>".format(html.escape(chat.title), mention_html(user.id, user.first_name), 
+          "\n<b>• ID:</b> <code>{}</code>".format(html.escape(chat.title), mention_html(user.id, user.first_name),
                                                   mention_html(member.user.id, member.user.first_name), user_id)
     if reason:
         log += "\n<b>• Reason:</b> {}".format(reason)
@@ -361,7 +361,7 @@ def sban(bot: Bot, update: Update, args: List[str]) -> str:
             return log
         else:
             LOGGER.warning(update)
-            LOGGER.exception("ERROR banning user %s in chat %s (%s) due to %s", user_id, chat.title, chat.id, excp.message)       
+            LOGGER.exception("ERROR banning user %s in chat %s (%s) due to %s", user_id, chat.title, chat.id, excp.message)
     return ""
 
 __help__ = """
