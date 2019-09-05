@@ -5,7 +5,7 @@ from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 from IHbot.modules.helper_funcs.msg_types import Types
 from IHbot.modules.sql import SESSION, BASE
 
-DEFAULT_WELCOME = "`{first}` Thanks for us,We have waited so long to have you among us. At last, the time has come. We are most delightfully welcoming you to join us today! "
+DEFAULT_WELCOME = "`{first}` Thanks for joining us,We have waited so long to have you among us. At last, the time has come. We are most delightfully welcoming you to join us today! "
 DEFAULT_GOODBYE = "He was kicked same as Thanos was...."
 
 
