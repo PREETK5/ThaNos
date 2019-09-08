@@ -204,7 +204,7 @@ EnglishStrings = {
 I'm a group manager bot maintained by [this person](tg://user?id={654839744}). I'm a [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
 I'm built in python3, using the \
 python-telegram-bot library, and am fully opensource - you can find what makes me tick\
-[here](https://github.com/peaktogoo/HarukaAya))!
+[here](https://github.com/peaktogoo/IHbotAya))!
 
 Feel free to submit pull requests on github, or to contact my support group, @EchelonTeam, with any bugs, questions \
 or feature requests you might have :)
