@@ -194,7 +194,7 @@ SpanishStrings = {
         "Prueba a enviarme el siguiente mensaje y lo verás!",
     "/save test This is a markdown test. _italics_, *bold*, `code`, [URL](example.com) [button](buttonurl:github.com) [button2](buttonurl://google.com:same)":
     """/save test Esto es un test de markdown. _cursiva_, *negrita*, `codigo`, \
-[URL](example.com) 
+[URL](example.com)
 [Botón](buttonurl:github.com)
 [Botón2](buttonurl://google.com:same)""",
 
@@ -216,7 +216,7 @@ el caso de los datos mencionados anteriormente.""",
 "Can't demote what wasn't promoted!": "No puedo quitarle el admin si no lo tiene!",
 "I can't demote myself!": "No puedo quitarme de ser administradora yo misma!",
 "Successfully demoted in *{}*!": "Ya no es administrador en *{}*!",
-"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
+"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!":
 "No puedo quitarle el admin. Puede que no sea administrador o que el estado de administrador fuese dado por otro usuario, asi que no puedo actuar sobre él!",
 
 "I don't have access to the invite link, try changing my permissions!": "No tengo acceso al link de invitación, prueba cambiando mis permisos!",
@@ -266,7 +266,7 @@ el caso de los datos mencionados anteriormente.""",
     "I'm not gonna BAN myself, are you crazy?": "No voy a banearme a mi misma, ¿estás loco?",
     "Banned!": "¡Baneado!",
     "Well damn, I can't ban that user.": "Vaya, no puedo banear a este usuario!.",
-    "You haven't specified a time to ban this user for!": 
+    "You haven't specified a time to ban this user for!":
         "No has especificado el tiempo para banear a este usuario!",
     "Banned! User will be banned for {}.": "¡Baneado! El usuario ha sido baneado por {}.",
 
@@ -300,7 +300,7 @@ el caso de los datos mencionados anteriormente.""",
     "Yep, I'll stop replying to that in *{}*." : "Valee, dejaré de responder a eso en *{}*.",
     "That's not a current filter - run /filters for all active filters.":
         "Actualmente eso no es un filtro - escribe /filters para ver los filtros activos.",
-    
+
     #Disable
     "Disabled the use of `{}` in *{}*": "Desactivado el uso de `{}` en *{}*",
     "That command can't be disabled": "Ese comando no se puede desactivar!",
@@ -338,7 +338,7 @@ el caso de los datos mencionados anteriormente.""",
 #Log channel
     "Now, forward the /setlog to the group you want to tie this channel to!":
         "Ahora envia /setlog al grupo con el que quieres vincular este canal!",
-    "This channel has been set as the log channel for {}.": 
+    "This channel has been set as the log channel for {}.":
         "Este canal ha sido configurado como el canal de registro para {}.",
     "Successfully set log channel!": "Canal de registro establecido con éxito!",
     "*The steps to set a log channel are:*\n • add bot to the desired channel\n • send /setlog to the channel\n • forward the /setlog to the group\n":
@@ -352,11 +352,11 @@ el caso de los datos mencionados anteriormente.""",
     "No log channel has been set yet!": "No hay ningún canal de registro establecido!",
 
 #Users
-    "I've seen them in <code>{}</code> chats in total.": 
+    "I've seen them in <code>{}</code> chats in total.":
         "Le he visto en <code>{}</code> chats en total.",
     "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.":
         "Le he visto en...Wow. ¿Me estás siguiendo? Estás los mismos sitios que yo... oh, pero si soy yo! Que chorprecha!!.",
-    
+
 #Msg_deleting
     "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.":
         "No he podido borrar todos los mensajes. Puede que los mensajes sean muy viejos, que no tenga derechos para borrarlos o que esto no sea un supergrupo.",
@@ -394,14 +394,14 @@ el caso de los datos mencionados anteriormente.""",
 
     "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":
         "Necesitas darme un nombre de usuario para quitar la restricción, o responder a un mensaje de esa persona.",
-    "This user already has the rights to send anything in {}.": 
+    "This user already has the rights to send anything in {}.":
         "Este usuario ya tiene permisos para enviar cualquier cosa en {}.",
     "Yep, {} can send media again in {}!": "Si, {} puede volver a enviar media en {}!",
     "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!":
         "ЭEste usuario ni siquiera está en el chat.",
     "I really wish I could restrict admins...": "Ya me gustaría poder restringir a administradores...",
     "I'm not gonna RESTRICT myself, are you crazy?": "No voy a restringirme a mi misma, ¿estás loco?",
-    "You haven't specified a time to restrict this user for!": 
+    "You haven't specified a time to restrict this user for!":
         "¡No has especificado el tiempo para restringir a este usuario!",
     "Well damn, I can't restrict that user.": "Vaya, no puedo restringir a este usuario.",
     "{} is muted in {}!": "{} está silenciado en {}!",
@@ -449,7 +449,7 @@ el caso de los datos mencionados anteriormente.""",
 
 "send-start": """Hola {}, me llamo {}! Si tienes alguna pregunta sobre como usarme, lee /help - y después ve a @NotAvaibleYet.
 
-Soy un bot para administrar grupos mantenido por [esta maravillosa persona](tg://user?id={}). Soy parecida a [Marie](https://github.com/PaulSonOfLars/tgbot) 
+Soy un bot para administrar grupos mantenido por [esta maravillosa persona](tg://user?id={}). Soy parecida a [Marie](https://github.com/PaulSonOfLars/tgbot)
 Estoy hecha python3, usando la librería de \
 python-telegram-bot, y soy totalmente de codigo abierto - puedes ver lo que me hace funcionar \
 [aquí](https://gitlab.com/MrYacha/pYanaBot-2.0)!
@@ -695,7 +695,7 @@ eg: `\\?`.
 
 "Bios and Abouts_help": """
  - /setbio <texto>: respondiendo a un usuario, guardará su biografía
- - /bio: te mostrará tu biografía o la de otro usuario. 
+ - /bio: te mostrará tu biografía o la de otro usuario.
  - /setme <texto>: te muestra tu información
  - /me: te mostrará tu biografía o la de otro usuario
 """,
@@ -708,7 +708,7 @@ eg: `\\?`.
  - /warn <userhandle>: advierte a un usuario. Despues de 3 advertencias, el usuario será baneado del grupo. Se puede usar respondiendo a un mensaje.
  - /resetwarn <userhandle>: Resetea las advertencias para un usuario. Puede ser usado como respuesta a un mensaje.
  - /addwarn <palabraclave> <mensaje añadido>: establece un filtro de advertencia en una determinada palabra clave. Si quieres que tu palabra clave \
-ser una oración, ponla entre comillas, como aquí: `/addwarn "muy enfadado" Esto es un usuario enfadado`. 
+ser una oración, ponla entre comillas, como aquí: `/addwarn "muy enfadado" Esto es un usuario enfadado`.
  - /nowarn <palabraclave>: detiene un filtro de advertencia
  - /warnlimit <num>: establece el numero de advertencias
  - /strongwarn <on/yes/off/no>: Si está en on y se excede el numero de advertencias, el usuario será baneado. Si no solo será expulsado

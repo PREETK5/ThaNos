@@ -192,12 +192,12 @@ Questo creerà due pulsanti sulla stessa linea invece di uno su ogni linea.
 """
 
 ItalianStrings = {
-    "send-start": """Ciao {}, il mio nome è {}! Se avete domande su come usarmi, leggete /help - e poi unitevi al nostro gruppo: @HarukaAyaGroup .
+    "send-start": """Ciao {}, il mio nome è {}! Se avete domande su come usarmi, leggete /help - e poi unitevi al nostro gruppo: @IHbotAyaGroup .
 Posso aiutarti a gestire i tuoi gruppi. Sono sostenuta da [questa persona](tg://user?id={654839744}) e sono un fork di [Marie](https://github.com/PaulSonOfLars/tgbot) .
 Sono realizzata in python3, usando \
 python-telegram-bot library, e sono completamente opensource - puoi trovare il mio codice sorgente\
-[qui](https://github.com/peaktogoo/HarukaAya))!
-Puoi inviare richieste di pull su github, scrivere nel mio gruppo di supporto, @HarukaAyaGroup, segnalando bugs oppure fare domande \
+[qui](https://github.com/peaktogoo/IHbotAya))!
+Puoi inviare richieste di pull su github, scrivere nel mio gruppo di supporto, @IHbotAyaGroup, segnalando bugs oppure fare domande \
 e richiedere di nuove funzioni. :)
 """,
 
@@ -292,7 +292,7 @@ Comandi principali disponibili:
 "Can't demote what wasn't promoted!": "Non posso delegittimare chi non è stato promosso!",
 "I can't demote myself!": "Non posso delegittimarmi!",
 "Successfully demoted in *{}*!": "Delegittimato con successo in *{}*!",
-"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
+"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!":
 "Non posso delegittimarlo. Potrei non essere amministratore, o lo stato di amministrazione è stato delegittimato da un altro utente, quindi non posso farci nulla!",
 
 "I don't have access to the invite link, try changing my permissions!": "Non ho accesso al link di invito, prova a cambiare i miei permessi!",
@@ -470,14 +470,14 @@ Comandi principali disponibili:
 
     "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":
         "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.",
-    "This user already has the rights to send anything in {}.": 
+    "This user already has the rights to send anything in {}.":
         "This user already has the rights to send anything in {}.",
     "Yep, {} can send media again in {}!": "Yep, {} can send media again in {}!",
     "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!":
         "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!",
     "I really wish I could restrict admins...": "I really wish I could restrict admins...",
     "I'm not gonna RESTRICT myself, are you crazy?": "I'm not gonna RESTRICT myself, are you crazy?",
-    "You haven't specified a time to restrict this user for!": 
+    "You haven't specified a time to restrict this user for!":
         "You haven't specified a time to restrict this user for!",
     "Well damn, I can't restrict that user.": "Well damn, I can't restrict that user.",
     "{} is muted in {}!": "{} is muted in {}!",
@@ -486,7 +486,7 @@ Comandi principali disponibili:
 
 #Notes
     "Get rekt": "Get rekt.",
-    "Invalid Chat ID provided!": "Invalid Chat ID provided!", #Connections 
+    "Invalid Chat ID provided!": "Invalid Chat ID provided!", #Connections
     "You don't seem to be referring to a user.": "You don't seem to be referring to a user.", #Admin, Bans, Muting
     "I can't seem to find this user": "I can't seem to find this user", #Bans, Muting
     "Yes": "Yes", #Antispam
@@ -534,7 +534,7 @@ Main commands available:
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
-   
+
 {}
    """,
 
@@ -589,7 +589,7 @@ Available commands are:
 
 Note:
 When disabling a command, the command only gets disabled for non-admins. All admins can still use those commands.
-Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat.""", 
+Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat.""",
 
 "Filters_help": """Make your chat more lively with filters; The bot will reply to certain words!
 Filters are case insensitive; every time someone says your trigger words, {} will reply something else! can be used to create your own commands, if desired.
@@ -597,7 +597,7 @@ Filters are case insensitive; every time someone says your trigger words, {} wil
 *Admin only:*
  - /filter <keyword> <reply message>: Every time someone says "word", the bot will reply with "sentence". For multiple word filters, quote the first word.
  - /stop <filter keyword>: stop that filter.
- 
+
  An example of how to set a filter would be via:
 `/filter hello Hello there! How are you?`
 A multiword filter could be set via:
@@ -655,7 +655,7 @@ Setting the log channel is done by:
 - adding the bot to the desired channel (as an admin!)
 - sending /setlog in the channel
 - forwarding the /setlog to the group
-""", 
+""",
 
 "Reporting_help": """ - /report <reason>: reply to a message to report it to admins.
  - @admin: reply to a message to report it to admins.
@@ -849,4 +849,3 @@ which clearly states that the right to erasure does not apply \
 the case for the aforementioned pieces of data."""
 
 }
-

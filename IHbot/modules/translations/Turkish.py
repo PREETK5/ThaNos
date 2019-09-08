@@ -172,12 +172,12 @@ Bu işlem tek satırda tek tuş yerine, tek satırda iki tuş oluşturacak.
 """
 
 TurkishStrings = {
-    "send-start": """Merhaba {}, benim adım {}! Beni nasıl kullanacağın hakkında soruların varsa, /help okuyun @HarukaAyaBot  gidin.
+    "send-start": """Merhaba {}, benim adım {}! Beni nasıl kullanacağın hakkında soruların varsa, /help okuyun @IHbotAyaBot  gidin.
 
 Ben bir [bu kişi](tg://user?id={654839744}) tarafından yönetilen bir grup yönetim botuyum. Bir [Marie](https://github.com/PaulSonOfLars/tgbot) forkuyum.
 python3'de python-telegram-bot, \
 kütüphanesini kullanarak yapıldım, ve sonunda tamanen açık kaynağım - beni neyin çalıştırdığını\
-[burada](https://github.com/peaktogoo/HarukaAya)) bulabilirsin!
+[burada](https://github.com/peaktogoo/IHbotAya)) bulabilirsin!
 
 Githubda pull requests göndermekten çekinme, yada destek grubuma, @EchelonTeam'a sorun bildirmek, soru sormak için \
 ya da öneride bulunmak için katıl:)
@@ -277,7 +277,7 @@ olduğunu seç.""",
 "Can't demote what wasn't promoted!": "Yönetici olmayan bir şeyi yöneticilikten atamam!",
 "I can't demote myself!": "Kendi kendimi yöneticilikten çıkaramam!",
 "Successfully demoted in *{}*!": "*{}* 'da başarıyla yöneticilikten çıkartıldı!",
-"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
+"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!":
 "Yöneticilikten çıkartamıyorum. Sanırım yönetici değilim ya da kullanıcı başkası tarafından yönetici yapıldı, tek bildiğim şey yetkim yok!",
 
 "I don't have access to the invite link, try changing my permissions!": "Davet bağlantısına erişme yetkim yok, yetkilerimi değiştirmeyi denemelisin!",
@@ -455,14 +455,14 @@ olduğunu seç.""",
 
     "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":
         "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.",
-    "This user already has the rights to send anything in {}.": 
+    "This user already has the rights to send anything in {}.":
         "This user already has the rights to send anything in {}.",
     "Yep, {} can send media again in {}!": "Yep, {} can send media again in {}!",
     "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!":
         "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!",
     "I really wish I could restrict admins...": "I really wish I could restrict admins...",
     "I'm not gonna RESTRICT myself, are you crazy?": "I'm not gonna RESTRICT myself, are you crazy?",
-    "You haven't specified a time to restrict this user for!": 
+    "You haven't specified a time to restrict this user for!":
         "You haven't specified a time to restrict this user for!",
     "Well damn, I can't restrict that user.": "Well damn, I can't restrict that user.",
     "{} is muted in {}!": "{} is muted in {}!",
@@ -517,7 +517,7 @@ Mevcut olan ana konumlar:
  - /settings:
    - özel mesaj yoluyla sana komutları gönderirirm
    - gruptaysan: özel mesaja yönlendiririm.
-   
+
 {}
    """,
 
@@ -562,7 +562,7 @@ Available commands are:
  - /disabled: list the disabled commands in this chat.
 Note:
 When disabling a command, the command only gets disabled for non-admins. All admins can still use those commands.
-Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat.""", 
+Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat.""",
 
 "Filters_help": """Make your chat more lively with filters; The bot will reply to certain words!
 Filters are case insensitive; every time someone says your trigger words, {} will reply something else! can be used to create your own commands, if desired.
@@ -570,7 +570,7 @@ Filters are case insensitive; every time someone says your trigger words, {} wil
 *Admin only:*
  - /filter <keyword> <reply message>: Every time someone says "word", the bot will reply with "sentence". For multiple word filters, quote the first word.
  - /stop <filter keyword>: stop that filter.
- 
+
  An example of how to set a filter would be via:
 `/filter hello Hello there! How are you?`
 A multiword filter could be set via:
@@ -620,7 +620,7 @@ Setting the log channel is done by:
 - adding the bot to the desired channel (as an admin!)
 - sending /setlog in the channel
 - forwarding the /setlog to the group
-""", 
+""",
 
 "Reporting_help": """ - /report <reason>: reply to a message to report it to admins.
  - @admin: reply to a message to report it to admins.
