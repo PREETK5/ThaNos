@@ -25,7 +25,7 @@ I know what it’s like to lose. To feel so desperately that you’re right, yet
 Destiny still arrives. Or should I say, I have.\
 
 
-I'm world manager bot maintained by [this awesome person](tg://user?id={}).
+I'm world manager bot maintained by [this Noob person](tg://user?id={}).
 
 You can find the list of available commands with /help.
 
@@ -52,8 +52,8 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Hope you can give me!
-Give your both kidneys to me!!"""
+DONATE_STRING = """Heya! Glad To Hear That You Want To Donate
+Give me your kidneys!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -151,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("The end is near.🙂 ")
+        update.effective_message.reply_text("I'm Far From Home I.E.In Virtual ")
 
 
 # for test purposes
@@ -381,7 +381,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 482352271 and DONATION_LINK:
+        if OWNER_ID != 859040871 and DONATION_LINK:
             update.effective_message.reply_text("You can donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
