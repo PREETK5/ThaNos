@@ -41,7 +41,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("Bsdka Ban protected hai ")
+        message.reply_text("Nikal lavde ")
         return ""
 
     if user_id == bot.id:
@@ -104,7 +104,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("This person is ban protected, meaning that you cannot ban this person! ")
+        message.reply_text("That Piece Of Ass is gone")
         return ""
 
     if user_id == bot.id:
@@ -112,7 +112,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if not reason:
-        message.reply_text("bsdk reason toh bol deta")
+        message.reply_text("bsdk kitne time tak ban rakhna hai woh toh bol deta")
         return ""
 
     split_reason = reason.split(None, 1)
@@ -187,7 +187,7 @@ def kick(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id):
-        message.reply_text("Admin h yeh randi kaise kick karu 😅")
+        message.reply_text("Shit should is removed ")
         return ""
 
     if user_id == bot.id:
