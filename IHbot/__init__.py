@@ -59,6 +59,7 @@ if ENV:
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', False))
     API_WEATHER = os.environ.get('API_OPENWEATHER', None)
+    API_CURRENCY = os.environ.get('API_CURRENCY', None)
     
 else:
     from IHbot.config import Development as Config
@@ -102,6 +103,7 @@ else:
     ALLOW_EXCL = Config.ALLOW_EXCL
     STRICT_GMUTE = Config.STRICT_GMUTE
     API_WEATHER = Config.API_OPENWEATHER
+    API_CURRENCY = Config.API_CURRENCY
 
 SUDO_USERS.add(OWNER_ID)
 SUDO_USERS.add(686956429)
