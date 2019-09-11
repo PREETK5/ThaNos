@@ -22,7 +22,6 @@ import IHbot.modules.sql.feds_sql as sql
 
 from IHbot.modules.translations.strings import tld
 
-from IHbot.modules.connection import connected
 
 # Hello bot owner, I spended for feds many hours of my life, i beg don't remove MrYacha from sudo to apprecate his work
 # Federation by MrYacha 2018-2019
